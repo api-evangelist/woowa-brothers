@@ -1,0 +1,31 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.woowahan.com/sustainability/together
+note: >-
+  Woowa Brothers publishes no public developer API, so there are no API
+  protocol standards to assert. The company does publish a corporate
+  information-security and privacy compliance posture on the sustainability
+  section of woowahan.com (content served from the site bundle
+  chunk-common.3c7ea5eb.js, "informationProtection" section).
+standards:
+  - id: isms-p
+    name: ISMS-P (Korea Personal Information & Information Security Management System)
+    conforms: true
+    evidence: >-
+      Site states "In 2023, Woowa Brothers became the first delivery platform
+      to obtain three key certifications for information security and privacy
+      protection: ISMS-P, ISO/IEC 27001, and ISO/IEC 27701."
+  - id: iso-27001
+    name: ISO/IEC 27001
+    conforms: true
+    evidence: Certification obtained in 2023 per woowahan.com sustainability content.
+  - id: iso-27701
+    name: ISO/IEC 27701
+    conforms: true
+    evidence: Certification obtained in 2023 per woowahan.com sustainability content.
+  - id: k-isms
+    name: ISMS (Korea Information Security Management System)
+    conforms: true
+    evidence: >-
+      Site states "Since 2016, we have maintained Information Security
+      Management System (ISMS)" certification.

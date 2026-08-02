@@ -1,8 +1,14 @@
 aid: woowa-brothers
 name: Woowa Brothers
-description: 'Woowa Brothers is a company surfaced as a portfolio company of hongshan and added to the
-  API Evangelist network as a stub for enrichment. Sector: technology. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Woowa Brothers is the Seoul-based technology company behind Baedal Minjok
+  (Baemin), South Korea's leading food delivery platform, alongside B-Mart
+  quick commerce, Baemin Connect rider services, and robotics initiatives for
+  serving and delivery robots. A subsidiary of Delivery Hero since 2021, the
+  company runs a strong engineering culture through its Woowahan tech blog and
+  first-party open-source libraries on GitHub (NestJS libraries, WoowahanJS,
+  Redis tooling), but it does not publish a public developer API or developer
+  portal.
 url: https://raw.githubusercontent.com/api-evangelist/woowa-brothers/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,30 @@ x-backed-by:
 - hongshan
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://avatars.githubusercontent.com/u/7642191
 tags:
 - Company
 - Technology
+- Food Delivery
+- Quick Commerce
+- Logistics
+- Mobile Apps
+- South Korea
+- E-Commerce
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,26 @@ maintainers:
 common:
 - type: Website
   url: https://woowahan.com
+- type: Blog
+  url: https://techblog.woowahan.com
+- type: BlogRSS
+  url: https://techblog.woowahan.com/feed/
+- type: GitHubOrganization
+  url: https://github.com/woowabros
+- type: Careers
+  url: https://career.woowahan.com
+- type: Compliance
+  url: https://www.woowahan.com/sustainability/together
+- type: Conformance
+  url: conformance/woowa-brothers-conformance.yml
+- type: Packages
+  url: packages/woowa-brothers-packages.yml
+- type: LLMsTxt
+  url: llms/woowa-brothers-llms.txt
+- type: DomainSecurity
+  url: security/woowa-brothers-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

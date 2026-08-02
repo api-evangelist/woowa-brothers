@@ -1,0 +1,28 @@
+{
+  "repo": "woowa-brothers",
+  "feeds": [
+    {
+      "source": "https://woowahan.com",
+      "feed_url": "https://woowahan.com",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://techblog.woowahan.com/feed/",
+      "feed_url": "https://techblog.woowahan.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://techblog.woowahan.com",
+      "feed_url": "https://techblog.woowahan.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-08-01T15:49:00Z"
+}

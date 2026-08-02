@@ -1,0 +1,60 @@
+generated: '2026-07-21'
+method: searched
+note: >-
+  Probe record only — no genuine /.well-known/ documents were found.
+  www.woowahan.com is an SPA with a catch-all route that returns HTTP 200
+  (the Vue app shell HTML) for every path, so its 200s below are soft-404s,
+  not real documents; no raw files were saved. techblog.woowahan.com and
+  www.baemin.com return honest 404s. No WellKnown pointer is wired in
+  apis.yml because nothing real was discovered.
+hosts:
+  - host: https://www.woowahan.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 200
+        soft_404: true
+        note: SPA catch-all returned the HTML app shell, not a security.txt
+      - path: /.well-known/openid-configuration
+        status: 200
+        soft_404: true
+      - path: /.well-known/oauth-authorization-server
+        status: 200
+        soft_404: true
+      - path: /.well-known/api-catalog
+        status: 200
+        soft_404: true
+      - path: /.well-known/ai-plugin.json
+        status: 200
+        soft_404: true
+      - path: /llms.txt
+        status: 200
+        soft_404: true
+  - host: https://techblog.woowahan.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /llms.txt
+        status: 200
+        note: real llms.txt (All in One SEO), saved verbatim at llms/woowa-brothers-llms.txt
+  - host: https://www.baemin.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /llms.txt
+        status: 404

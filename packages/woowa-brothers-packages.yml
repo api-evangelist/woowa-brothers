@@ -1,0 +1,45 @@
+generated: '2026-07-21'
+method: searched
+source: npm registry + PyPI + github.com/woowabros
+note: >-
+  Woowa Brothers publishes no public developer API, so these are first-party
+  open-source libraries (not API client SDKs) shipped from the woowabros
+  GitHub organization to public registries. Registry repository URLs were
+  verified to point at github.com/woowabros.
+packages:
+  - language: typescript
+    registry: npm
+    name: "@nestjs-library/crud"
+    url: https://www.npmjs.com/package/@nestjs-library/crud
+    install: npm install @nestjs-library/crud
+    repository: https://github.com/woowabros/nestjs-library-crud
+    latest: 0.13.1
+    description: Automatically generate CRUD REST APIs based on NestJS and TypeORM.
+    official: true
+  - language: typescript
+    registry: npm
+    name: "@nestjs-library/config"
+    url: https://www.npmjs.com/package/@nestjs-library/config
+    install: npm install @nestjs-library/config
+    repository: https://github.com/woowabros/nestjs-library-config
+    latest: 0.4.5
+    description: NestJS module for managing environment variables easily and securely.
+    official: true
+  - language: javascript
+    registry: npm
+    name: woowahan
+    url: https://www.npmjs.com/package/woowahan
+    install: npm install woowahan
+    repository: https://github.com/woowabros/WoowahanJS
+    latest: 1.3.2
+    description: WoowahanJS web application framework (legacy first-party JS framework).
+    official: true
+  - language: python
+    registry: pypi
+    name: rks
+    url: https://pypi.org/project/rks/
+    install: pip install rks
+    repository: https://github.com/woowabros/redis-keys-statistics
+    latest: 1.0.0
+    description: redis-keys-statistics — analyze and report key usage statistics in Redis databases.
+    official: true
